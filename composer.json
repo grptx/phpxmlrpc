@@ -24,7 +24,10 @@
         "ext-mbstring": "Needed to allow reception of requests/responses in character sets other than ASCII,LATIN-1,UTF-8"
     },
     "autoload": {
-        "psr-4": {"PhpXmlRpc\\": "lib/"}
+        "psr-4": {"PhpXmlRpc\\": "src/"},
+	"files": [
+		"lib/xmlrpc.inc"
+	]
     },
     "repositories": [
         {
